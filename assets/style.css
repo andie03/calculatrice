@@ -1,0 +1,47 @@
+#egal{
+    display: none;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    width: 3rem;
+    height: 10rem;
+    border-radius:0.25em;
+    box-sizing: border-box;
+    position: absolute;
+    top: 5.90rem;
+    left: 10.12rem;
+    padding-top: 3.75rem;
+    justify-content: center;
+    text-align: center;
+    font-size:2em;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#egal:hover{
+    background-color: #c83847;
+}
+#screen{
+    width: 11.25em;
+    box-sizing: border-box;
+    border-radius: 0.25em;
+    height: 4em;
+    background-color: aliceblue;
+    margin-top: 1em;
+    margin-bottom:-2rem;
+    margin-left: 0.25rem;
+    opacity:70%;
+    border: 1px solid green;
+    padding-right: 1rem;
+    padding-top: 1.25rem;
+    text-align: end;
+    font-size: large;
+    font-weight: bold;
+}
+body{
+    align-content: center;
+    justify-content: center;
+    padding-left: 30rem;
+    padding-top: 5rem;
+}
